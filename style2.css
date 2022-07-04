@@ -1,0 +1,152 @@
+body{
+    background-image: url('/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg');
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    border: 0.2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+}
+.page-num-span{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+a:hover{
+    border-bottom: 3px solid white;
+    border-bottom-right-radius: 2px ;
+    border-bottom-left-radius: 2px ;
+    border-top-right-radius: 2px ;
+    border-top-left-radius: 2px ;
+    color: white;
+    transition: 300ms;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 90vh;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background: none;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    transition: 200ms;
+    color: white;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 2px ;
+    border-bottom-left-radius: 2px ;
+    border-top-right-radius: 2px ;
+    border-top-left-radius: 2px ;
+}
+
+.travel-infos{
+    width: 40%;
+}
+
+.planet-name{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.trip-description{
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+
+.bottom{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.distance-span, .time-span{
+    color: rgba(255, 255, 255, 0.6);
+    transition: 300ms;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.d, .travel-time{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.title2-div{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-left: 130px;
+    padding-bottom: 30px;
+}
+
+.title2-span{
+    color: rgba(255, 255, 255, 0.3);
+    padding-right: 20px;
+}
