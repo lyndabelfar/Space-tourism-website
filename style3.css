@@ -5,6 +5,7 @@ body{
     font-family: 'PT Sans Caption', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: white;
+    overflow: hidden;
 }
 *{
     box-sizing: border-box;
@@ -145,6 +146,6 @@ button.active{
 }
 
 .person-img{
-    width: auto;
+    width: 400px;
     height: 100%;
 }
